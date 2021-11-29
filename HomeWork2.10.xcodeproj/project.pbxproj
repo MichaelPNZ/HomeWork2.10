@@ -7,19 +7,27 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		570C768327513278000A6D55 /* DataUSA.swift in Sources */ = {isa = PBXBuildFile; fileRef = 570C768227513278000A6D55 /* DataUSA.swift */; };
+		570C7685275135F0000A6D55 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 570C7684275135F0000A6D55 /* MainViewController.swift */; };
+		570C768927513AC5000A6D55 /* USADateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 570C768827513AC5000A6D55 /* USADateViewController.swift */; };
+		570C768F2751404B000A6D55 /* USADataCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 570C768E2751404B000A6D55 /* USADataCell.swift */; };
+		574D060B2753B0B1005F59E8 /* UserActionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 574D060A2753B0B1005F59E8 /* UserActionCell.swift */; };
 		57D64EF32750315C0034C9BB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57D64EF22750315C0034C9BB /* AppDelegate.swift */; };
 		57D64EF52750315C0034C9BB /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57D64EF42750315C0034C9BB /* SceneDelegate.swift */; };
-		57D64EF72750315C0034C9BB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57D64EF62750315C0034C9BB /* ViewController.swift */; };
 		57D64EFA2750315C0034C9BB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 57D64EF82750315C0034C9BB /* Main.storyboard */; };
 		57D64EFC2750315E0034C9BB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 57D64EFB2750315E0034C9BB /* Assets.xcassets */; };
 		57D64EFF2750315E0034C9BB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 57D64EFD2750315E0034C9BB /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		570C768227513278000A6D55 /* DataUSA.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataUSA.swift; sourceTree = "<group>"; };
+		570C7684275135F0000A6D55 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		570C768827513AC5000A6D55 /* USADateViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = USADateViewController.swift; sourceTree = "<group>"; };
+		570C768E2751404B000A6D55 /* USADataCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = USADataCell.swift; sourceTree = "<group>"; };
+		574D060A2753B0B1005F59E8 /* UserActionCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserActionCell.swift; sourceTree = "<group>"; };
 		57D64EEF2750315C0034C9BB /* HomeWork2.10.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HomeWork2.10.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		57D64EF22750315C0034C9BB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		57D64EF42750315C0034C9BB /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		57D64EF62750315C0034C9BB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		57D64EF92750315C0034C9BB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		57D64EFB2750315E0034C9BB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		57D64EFE2750315E0034C9BB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -37,6 +45,59 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		57538C7B2755716B00011CA5 /* Sourse */ = {
+			isa = PBXGroup;
+			children = (
+				57D64EFB2750315E0034C9BB /* Assets.xcassets */,
+			);
+			path = Sourse;
+			sourceTree = "<group>";
+		};
+		57538C7C2755718500011CA5 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				570C768E2751404B000A6D55 /* USADataCell.swift */,
+				574D060A2753B0B1005F59E8 /* UserActionCell.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		57538C7D2755721600011CA5 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				570C7684275135F0000A6D55 /* MainViewController.swift */,
+				570C768827513AC5000A6D55 /* USADateViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		57538C7E2755723200011CA5 /* SupportingFiles */ = {
+			isa = PBXGroup;
+			children = (
+				57D64EF22750315C0034C9BB /* AppDelegate.swift */,
+				57D64EF42750315C0034C9BB /* SceneDelegate.swift */,
+				57D64F002750315E0034C9BB /* Info.plist */,
+			);
+			path = SupportingFiles;
+			sourceTree = "<group>";
+		};
+		57538C7F2755725B00011CA5 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				57D64EF82750315C0034C9BB /* Main.storyboard */,
+				57D64EFD2750315E0034C9BB /* LaunchScreen.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		57538C802755729400011CA5 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				570C768227513278000A6D55 /* DataUSA.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
 		57D64EE62750315C0034C9BB = {
 			isa = PBXGroup;
 			children = (
@@ -56,13 +117,12 @@
 		57D64EF12750315C0034C9BB /* HomeWork2.10 */ = {
 			isa = PBXGroup;
 			children = (
-				57D64EF22750315C0034C9BB /* AppDelegate.swift */,
-				57D64EF42750315C0034C9BB /* SceneDelegate.swift */,
-				57D64EF62750315C0034C9BB /* ViewController.swift */,
-				57D64EF82750315C0034C9BB /* Main.storyboard */,
-				57D64EFB2750315E0034C9BB /* Assets.xcassets */,
-				57D64EFD2750315E0034C9BB /* LaunchScreen.storyboard */,
-				57D64F002750315E0034C9BB /* Info.plist */,
+				57538C802755729400011CA5 /* Models */,
+				57538C7D2755721600011CA5 /* ViewControllers */,
+				57538C7C2755718500011CA5 /* Views */,
+				57538C7F2755725B00011CA5 /* Storyboards */,
+				57538C7B2755716B00011CA5 /* Sourse */,
+				57538C7E2755723200011CA5 /* SupportingFiles */,
 			);
 			path = HomeWork2.10;
 			sourceTree = "<group>";
@@ -138,9 +198,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				57D64EF72750315C0034C9BB /* ViewController.swift in Sources */,
 				57D64EF32750315C0034C9BB /* AppDelegate.swift in Sources */,
+				574D060B2753B0B1005F59E8 /* UserActionCell.swift in Sources */,
 				57D64EF52750315C0034C9BB /* SceneDelegate.swift in Sources */,
+				570C768F2751404B000A6D55 /* USADataCell.swift in Sources */,
+				570C768327513278000A6D55 /* DataUSA.swift in Sources */,
+				570C768927513AC5000A6D55 /* USADateViewController.swift in Sources */,
+				570C7685275135F0000A6D55 /* MainViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -291,7 +355,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = WPASFV42KH;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = HomeWork2.10/Info.plist;
+				INFOPLIST_FILE = HomeWork2.10/SupportingFiles/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -306,7 +370,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -319,7 +383,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = WPASFV42KH;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = HomeWork2.10/Info.plist;
+				INFOPLIST_FILE = HomeWork2.10/SupportingFiles/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -334,7 +398,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
